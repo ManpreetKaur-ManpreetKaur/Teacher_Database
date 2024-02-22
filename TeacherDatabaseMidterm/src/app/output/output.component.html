@@ -1,0 +1,11 @@
+<div class="output-container">
+  <h2>Review Entered Teacher Information</h2>
+
+  <div *ngIf="userData">
+    <p><strong>First Name:</strong> {{ userData.firstName }}</p>
+    <p><strong>Last Name:</strong> {{ userData.lastName }}</p>
+    <p><strong>Employment Term:</strong> {{ userData.employmentTerm }}</p>
+  </div>
+
+  <button routerLink="/input">Go Back to Input</button>
+</div>

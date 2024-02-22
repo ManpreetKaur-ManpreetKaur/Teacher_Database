@@ -1,0 +1,57 @@
+  <app-back-arrow></app-back-arrow>
+
+  <div class="flavor-selection-container">
+    <h2>Choose Cupcake Flavor</h2>
+
+    <label>
+      <input type="radio" name="flavor" (change)="selectFlavorAndProceed('Vanilla')" />
+      Vanilla
+    </label><br>
+
+    <label>
+      <input type="radio" name="flavor" (change)="selectFlavorAndProceed('Chocolate')" />
+      Chocolate
+    </label><br>
+
+    <label>
+      <input type="radio" name="flavor" (change)="selectFlavorAndProceed('Strawberry')" />
+      Strawberry
+    </label><br>
+
+    <label>
+      <input type="radio" name="flavor" (change)="selectFlavorAndProceed('Lemon')" />
+      Lemon
+    </label><br>
+
+    <label>
+      <input type="radio" name="flavor" (change)="selectFlavorAndProceed('Raspberry')" />
+      Raspberry
+    </label><br>
+
+    <label>
+      <input type="radio" name="flavor" (change)="selectFlavorAndProceed('Caramel')" />
+      Caramel
+    </label><br>
+
+    <label>
+      <input type="radio" name="flavor" (change)="selectFlavorAndProceed('Coffee')" />
+      Coffee
+    </label><br>
+
+
+
+  <hr class="solid-line">
+
+  <div class="subtotal">
+    Subtotal: {{ calculateSubtotal() | currency:'USD':'symbol' }}
+  </div>
+
+  <div class="buttons">
+    <button (click)="cancel()" class="cancel">Cancel</button>
+    <button (click)="goToSummary()">Next</button>
+  </div>
+  </div>
+
+
+
+

@@ -1,0 +1,31 @@
+<app-back-arrow></app-back-arrow>
+
+<div class="summary-container">
+  <h2 class="h2">Order Summary</h2>
+
+  <div class="summary-details">
+
+    <div class="summary-row">
+      Quantity: <br>
+      {{ quantity }} cupcakes
+    </div>
+    <hr class="solid-line">
+
+    <div class="summary-row">
+      Flavor: <br>
+      {{ selectedFlavor }}
+    </div>
+    <hr class="solid-line">
+
+    <div class="subtotal">
+      Subtotal:
+      Subtotal: {{ subtotal | currency:'USD':'symbol' }}
+    </div>
+
+  </div>
+  <div class="buttons">
+    <button class="cancel">Send Order</button><br>
+    <button (click)="goBack()">Cancel</button>
+  </div>
+</div>
+

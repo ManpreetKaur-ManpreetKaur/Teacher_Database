@@ -1,0 +1,62 @@
+.summary-container {
+  text-align: center;
+  margin: 20px;
+}
+h2{
+  margin-bottom: 50px;
+}
+
+.summary-details {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.summary-row {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.subtotal-row {
+  text-align: left;
+  }
+
+.subtotal {
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 100px;
+}
+
+.solid-line {
+  width: 100%;
+  border: 1px solid #ccc; /* Solid line color */
+}
+.buttons {
+  margin-top: 20px;
+}
+
+
+.cancel{
+  background-color: #fff;
+  color:deeppink ;
+  border-style: solid;
+}
+button {
+  margin-top: 20px;
+  width: 400px;
+  height:40px;
+  border-radius: 10px;
+  background-color: deeppink;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 10px;
+
+}
+
+button:hover {
+  background-color:hotpink;
+}

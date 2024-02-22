@@ -1,0 +1,10 @@
+/* Header Styles */
+p {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  font-family: "Brush Script MT";
+  text-align: center;
+  font-size: 24px;
+   height: 40px;
+}

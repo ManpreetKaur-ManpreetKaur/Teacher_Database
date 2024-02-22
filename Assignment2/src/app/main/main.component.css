@@ -1,0 +1,40 @@
+/* main-page.component.css */
+.image-content-container {
+  display: flex;
+  justify-content:space-around ;
+  align-items: center;
+  padding: 20px; /* Adjust as needed */
+  margin-bottom: 50px;
+}
+
+.image-container img {
+  width: 450px;
+  height: 450px;
+  border-radius: 10px; /* Add some border-radius for a rounded corner effect */
+}
+
+.content {
+  width: 40%; /* Adjust the width as needed */
+  text-align: center;
+  color: #333; /* Text color */
+}
+
+.content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.content button {
+  background-color: deeppink; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.content button:hover {
+  background-color: hotpink; /* Hover background color */
+}

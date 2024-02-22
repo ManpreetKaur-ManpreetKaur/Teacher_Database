@@ -1,0 +1,15 @@
+footer {
+  background-color: purple;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+}

@@ -1,0 +1,54 @@
+.flavor-selection-container {
+  text-align: center;
+  margin: 20px;
+  }
+
+.flavor-options {
+  display: flex;
+  flex-direction: column; /* Display flavors in a column */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Align flavors to the left */
+}
+
+label {
+  margin: 10px;
+  font-size: 1.4em;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+.solid-line {
+  width: 100%;
+  border: 1px solid #ccc; /* Solid line color */
+}
+
+.subtotal {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.4em;
+}
+.cancel{
+  background-color: #fff;
+  color:deeppink ;
+  border-style: solid;
+}
+button {
+  margin-top: 10px;
+  width:200px;
+  height:40px;
+  border-radius: 10px;
+  background-color: deeppink;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-bottom: 90px;
+}
+
+button:hover {
+  background-color:hotpink;
+}
